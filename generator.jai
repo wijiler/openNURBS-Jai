@@ -34,8 +34,7 @@ generator :: () -> bool {
         "-std=c++17",
         "-x",
         "c++");
-        array_add(*strip_prefixes,"ON_");
-        array_add(*strip_prefixes,"on_");
+
         array_add(*libpaths,".");
         array_add(*libnames,"opennurbs");
         array_add(*include_paths,"source/opennurbs/");
